@@ -1,8 +1,14 @@
 "use strict";
 // 3 ways to make an object in javascript//
-var groceries, list;
-var table, house, makeup, school, park;
-console.log (groceries);
+var groceries;
+var list;
+var table;
+var house;
+var makeup;
+var school;
+var park;
+
+// console.log (groceries);
 // 1. object literal
 {
     // empty object literal
@@ -38,7 +44,8 @@ console.log (groceries);
     house
 }
 
-{
+park = {
     name:"Griffith Park"
-    park
 }
+
+console.log(park.name);
