@@ -14,38 +14,38 @@ var park;
     // empty object literal
 }
 
-{
+groceries = {
     name:`REfrigerator`,
-    groceries,
-    list
-} 
+    list: []
+};
 
-{
-    name:"ikea",
-    table
-    house
-}
+table = {
+    name:"ikea"
+};
 
-{
+makeup = {
     name:"mac",
-    makeup
-     function beautify() {
+    beautify : function() {
         console.log("you are pretty");
     }
-}
+};
 
-{
-    name:"Ivanhoe"
-    school
-}
+school = {
+    name:"Ivanhoe"  
+};
 
-{
+house = {
     name:"Condo"
-    house
-}
+};
 
 park = {
     name:"Griffith Park"
-}
+};
 
 console.log(park.name);
+console.log(school.name);
+console.log(makeup.name);
+console.log( makeup.beautify() );
+console.log(groceries.name);
+console.log(groceries.list);
+
