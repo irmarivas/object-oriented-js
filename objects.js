@@ -42,4 +42,4 @@ console.log( makeup.beautify() );
 console.log(groceries.name);
 console.log(groceries.list);
 
-// populate the grocery list with 5 groceries
+// access every array item individually and log the individual list items to the console
