@@ -9,7 +9,7 @@
 
 const groceries = {
     name:`REfrigerator`,
-    list: []
+    list: ['banana', 'shampoo', 'bandaids', 'beef', 'milk']
 };
 
 const table = {
