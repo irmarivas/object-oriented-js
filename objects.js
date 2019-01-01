@@ -40,6 +40,10 @@ console.log(school.name);
 console.log(makeup.name);
 console.log( makeup.beautify() );
 console.log(groceries.name);
-console.log(groceries.list);
+console.log(groceries.list[0]);
+console.log(groceries.list[1]);
+console.log(groceries.list[2]);
+console.log(groceries.list[3]);
+console.log(groceries.list[4]);
 
 // access every array item individually and log the individual list items to the console
