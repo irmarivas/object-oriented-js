@@ -1,12 +1,5 @@
 "use strict";
 // 3 ways to make an object in javascript//
-var groceries;
-var list;
-var table;
-var house;
-var makeup;
-var school;
-var park;
 
 // console.log (groceries);
 // 1. object literal
@@ -14,31 +7,31 @@ var park;
     // empty object literal
 }
 
-groceries = {
+const groceries = {
     name:`REfrigerator`,
     list: []
 };
 
-table = {
+const table = {
     name:"ikea"
 };
 
-makeup = {
+const makeup = {
     name:"mac",
     beautify : function() {
         console.log("you are pretty");
     }
 };
 
-school = {
+const school = {
     name:"Ivanhoe"  
 };
 
-house = {
+const house = {
     name:"Condo"
 };
 
-park = {
+const park = {
     name:"Griffith Park"
 };
 
@@ -49,3 +42,4 @@ console.log( makeup.beautify() );
 console.log(groceries.name);
 console.log(groceries.list);
 
+// populate the grocery list with 5 groceries
